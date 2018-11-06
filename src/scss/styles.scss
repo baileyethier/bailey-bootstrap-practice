@@ -1,9 +1,16 @@
 // Variable Overrides
 
 // Bootstrap Sass Imports
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import "node_modules/bootstrap/scss/bootstrap";
+#navbarText a.current{
+    font-style: bold;
+}
 
-.jumbotron {
-    background-color: green;
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#leftcolumn p.author{
+    font-style: bold;
 }
