@@ -6313,20 +6313,21 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 #navbarText a.current {
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 
 .nav-link:hover {
   text-decoration: underline; }
 
 p.author {
   font-weight: bold;
-  padding-left: 16px;
-  padding-bottom: 0px; }
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 16px; }
 
 p.publication {
   font-style: italic;
-  padding-left: 16px;
-  padding-top: 0px; }
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 16px; }
 
 .jumbotron {
   background-image: url("../media/pirate-ship.jpg");
@@ -6334,6 +6335,9 @@ p.publication {
   background-size: cover;
   height: 350px;
   padding: 0px; }
+
+.text-center {
+  padding-top: 80px; }
 
 h2.display-1 {
   align-items: center;

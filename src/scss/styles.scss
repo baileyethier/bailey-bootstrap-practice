@@ -5,6 +5,7 @@
 
 #navbarText a.current{
     font-weight: bold;
+    color: white;
 }
 
 .nav-link:hover{
@@ -13,24 +14,26 @@
 
 p.author{
     font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 16px;
-    padding-bottom: 0px;
-
 }
 
 p.publication{
     font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 16px;
-    padding-top: 0px;
 }
 
 .jumbotron{
     background-image: url("../media/pirate-ship.jpg");
-    //background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: cover;
     height: 350px;
     padding: 0px;
+}
+
+.text-center{
+    padding-top: 80px;
 }
 
 h2.display-1{
